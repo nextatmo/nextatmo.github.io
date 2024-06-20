@@ -218,28 +218,31 @@
 
 <!-- Multi-Lingual -->
 {% if page.multilingual %}
-<!-- Handle Language Change -->
+<!-- 处理语言变更 -->
 <script type="text/javascript">
-    // get nodes
+    // 获取节点
     var $zh = document.querySelector(".zh");
     var $en = document.querySelector(".en");
     var $ja = document.querySelector(".ja"); // 新增: 日语内容容器
     var $select = document.querySelector("select");
 
-    // Changes at v1.8.1: include lang flag as a url query. This interop well with catalog hash anchors.
-    function getLang() { return new URLSearchParams(document.location.search).get("lang") }
-
-    function setLang(newLang) {
-        var params = new URLSearchParams(document.location.search)
-        params.set("lang", newLang)
-        document.location.search = params.toString()  // refresh.
+    // 获取当前语言参数
+    function getLang() {
+        return new URLSearchParams(document.location.search).get("lang");
     }
 
-    // handle render
+    // 设置语言参数并刷新页面
+    function setLang(newLang) {
+        var params = new URLSearchParams(document.location.search);
+        params.set("lang", newLang);
+        document.location.search = params.toString(); // 刷新页面以应用新语言设置
+    }
+
+    // 渲染处理函数
     function _render() {
         var lang = getLang();
-        
-     // 根据语言显示相应内容
+
+        // 根据语言显示相应内容
         if (lang === "zh") {
             $select.selectedIndex = 0;
             $zh.style.display = "block";
@@ -265,10 +268,12 @@
             $en.style.display = "none";
             $en.classList.remove("active");
         }
+        
+        // 与目录交互
         generateCatalog(".catalog-body");
     }
 
-    // handle select change
+    // 下拉菜单变更事件处理
     function onLanChange(event) {
         var index = event.target.selectedIndex;
         var lang;
@@ -277,10 +282,12 @@
         else if (index === 2) lang = "ja"; // 新增: 日语
         setLang(lang);
     }
-    }
 
-    // init
+    // 初始化页面显示
     _render();
+
+    // 绑定下拉菜单事件监听
+    $select.addEventListener('change', onLanChange);
 </script>
 {% endif %}
 
