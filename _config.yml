@@ -1,7 +1,7 @@
 # Site settings
 title: Nextat Blog
 SEOTitle: Nextat的博客 | Nextat Blog
-header-img: img/home-bg.jpg
+header-img: img/a-home-bg.jpg
 email: a1157262132@gmail.com
 description: "这里是 @Nextat 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
 keyword: "Nextat, Next_atmosphere, Nextat, 鬼栈, Next_atmosphere, @Nextat, Nextat的博客, Nextat Blog, 博客, 个人网站, 互联网, Web, Java, 哲学,  Native, 美术, 设计, 绘画"
@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: Nextat
+#weibo_username: Nextat
 zhihu_username: nextat-2
 github_username: Nextatmo
 twitter_username: tsorngnan
