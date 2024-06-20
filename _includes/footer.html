@@ -257,13 +257,17 @@
     }
 
     // handle select change
-    function onLanChange(index) {
-        if (index == 0) {
-            lang = "zh"
-        } else {
-            lang = "en"
-        }
-        setLang(lang)
+function onLanChange(index) {
+    let lang;
+    if (index === 0) {
+        lang = "zh"; // 中文
+    } else if (index === 1) {
+        lang = "ja"; // 日语
+    } else {
+        lang = "en"; // 英文
+    }
+    setLang(lang);
+}
     }
 
     // init
