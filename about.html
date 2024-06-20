@@ -15,6 +15,12 @@ multilingual: true
     {{ about_zh | markdownify }}
 </div>
 
+<!-- Japanese Version -->
+<div class="ja post-container">
+    {% capture about_ja %}{% include about/ja.md %}{% endcapture %}
+    {{ about_ja | markdownify }}
+</div>
+
 <!-- English Version -->
 <div class="en post-container">
     {% capture about_en %}{% include about/en.md %}{% endcapture %}
