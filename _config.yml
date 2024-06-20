@@ -4,7 +4,7 @@ SEOTitle: Nextat的博客 | Nextat Blog
 header-img: img/home-bg.jpg
 email: a1157262132@gmail.com
 description: "这里是 @Nextat 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "Nextat, Nextat, Nextat, 鬼栈, Nextatpro, @Nextatpro, Nextat的博客, Nextat Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
+keyword: "Nextat, Nextat, Nextat, 鬼栈, Nextat, @Nextat, Nextat的博客, Nextat Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
 url: "https://huangxuan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: Nextatpro
-zhihu_username: Nextatpro
-github_username: Nextatpro
-twitter_username: Nextatpro
-#facebook_username:  Nextatpro
+weibo_username: Nextat
+zhihu_username: Nextat
+github_username: Nextat
+twitter_username: Nextat
+#facebook_username:  Nextat
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
