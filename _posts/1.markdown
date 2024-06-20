@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      "Hello World"
+subtitle:   "Hello World, Hello Blog"
+date:       2024-6-20 20:36:00
+author:     "Hux"
+header-img: "img/post-bg-2015.jpg"
+tags:
+    - Life
+---
