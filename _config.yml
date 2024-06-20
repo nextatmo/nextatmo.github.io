@@ -1,9 +1,9 @@
 # Site settings
 title: Nextat Blog
-SEOTitle: Nextat的博客 | Nextat Blog
+SEOTitle: Nextatブログ | Nextat Blog
 header-img: img/a-home-bg.jpg
 email: a1157262132@gmail.com
-description: "这里是 @Nextat 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
+description: "ここは @Nextat 個人ブログ，行くぞ | 考えて"
 keyword: "Nextat, Next_atmosphere, Nextat, 鬼栈, Next_atmosphere, @Nextat, Nextat的博客, Nextat Blog, 博客, 个人网站, 互联网, Web, Java, 哲学,  Native, 美术, 设计, 绘画"
 url: "https://huangxuan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
@@ -74,8 +74,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "本真行动者 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Nextatpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "本真行動者 <br> 一人だげ"
+sidebar-avatar: https://avatars.githubusercontent.com/u/29457682 # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
